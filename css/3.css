@@ -1,0 +1,57 @@
+html, body, div, p, span{
+	margin:0;padding: 0;
+}
+.clearfix:after{
+	/*content:'';display:block;height:0;overflow:hidden;clear:both;*/
+	content: '';display: table;clear:both;
+}
+.clearfix{
+*zoom:1;
+}
+
+/*____________我也不知道有什么用————————————————*/
+
+.box{
+	border:1px solid #999;
+	margin:20px;
+	padding: 20px;
+	background: #eee;
+}
+.leftbox{
+	float:left;
+	padding: 20px;
+	border:1px solid #999;
+	width:160px;
+	background: white;
+}
+.leftbox span{
+}
+.team-logo{
+	display: inline-block;
+	width: 80px;height:80px;
+	background:#dfdfdf;
+	border:1px solid #999;
+
+}
+.rightbox{
+	float:right;
+	border:1px solid #999;
+	width:120px;
+	background: white;
+}
+.person-logo{
+	width:80px;height:80px;
+	border:1px solid #999;
+	margin: 20px;
+	background:#dfdfdf;
+
+}
+.centerbox{
+	border:1px solid #999;
+	margin:0 140px 0 220px;
+	background: white;
+}
+
+.centerbox p{
+    margin:20px 50px;
+}
