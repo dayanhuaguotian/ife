@@ -48,8 +48,8 @@ body{background-color:rgb(247, 247, 247);
 				box-shadow: 5px 5px 5px #A09696;
 				border:1px solid #E2E2E2;
 				/*下面两行代码是解决float的子div撑开父div的情形*/
-				overflow:hidden;
-				zoom:1;
+				/*overflow:hidden;
+				zoom:1;*/
 				height:700px;
 			}	 		
 .text-ul{list-style-type: none;
