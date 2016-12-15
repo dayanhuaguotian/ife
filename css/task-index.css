@@ -1,0 +1,74 @@
+body{background-color:rgb(247, 247, 247);
+	margin:0px;
+	font-family: 微软雅黑, 'Microsoft YaHei';
+}
+
+/*common*/
+.cor-white{color:white;}
+.bg-orange{background-color:rgba(213, 117, 109, 1);}
+.bg-grey{background-color:#BDBBBB;}
+.fl-left{float:left;}
+.fl-right{float:right;}
+.clr-both{clear:both;}
+.text-center{text-align: center;}
+.fs-20{font-size:20px;}
+.fs-18{font-size:16px;}
+
+.lihg-25{line-height:25px;}
+.mt-10{margin-top: 10px;}
+.mt-20{margin-top: 20px;}
+/*nav*/
+.navbar{padding:20px 50px 20px 30px;}
+.navbar-link{height:20px;}
+.navbar ul{margin-top:0px;
+		   -webkit-margin-before: 0em;
+			-webkit-margin-after: 0em;
+			-webkit-margin-start: 0px;
+			-webkit-margin-end: 0px;
+			-webkit-padding-start: 0px;
+		  }
+.navbar ul li{list-style-type: none;
+			  text-decoration: none;
+			  float:left;
+			 }			 
+.navbar ul li a{
+				text-decoration: none;
+				color:white;
+				display:block;
+				margin-left:20px;
+				line-height:20px;				
+				}
+
+/*article*/
+.text{text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
+	 }
+.article-back{padding:20px;
+				margin:20px;
+				background: #fff;
+				box-shadow: 5px 5px 5px #A09696;
+				border:1px solid #E2E2E2;
+				/*下面两行代码是解决float的子div撑开父div的情形*/
+				overflow:hidden;
+				zoom:1;
+				height:700px;
+			}	 		
+.text-ul{list-style-type: none;
+		}
+
+/*taskcard*/
+.taskcard-back{
+	float:left;
+	margin:0px 20px 20px 20px;
+	padding:0px 20px;
+	border-radius: 5px;
+	background:#E5E3E3;
+	position:relative;
+	right:50%;
+	width:300px;
+}
+
+.task-row{position:relative;left:50%;float:left;}
+.taskcard-back a{color:rgba(213, 117, 109, 1);text-decoration: none;}
+
+/*footer*/
+footer{padding:20px 0px;}
