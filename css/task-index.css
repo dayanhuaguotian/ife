@@ -50,7 +50,7 @@ body{background-color:rgb(247, 247, 247);
 				/*下面两行代码是解决float的子div撑开父div的情形*/
 				overflow:hidden;
 				zoom:1;
-				height:700px;
+				
 			}	 		
 .text-ul{list-style-type: none;
 		}
